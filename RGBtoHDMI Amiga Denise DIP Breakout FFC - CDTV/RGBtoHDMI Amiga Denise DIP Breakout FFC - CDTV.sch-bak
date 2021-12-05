@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "RGBtoHDMI Denise Adapter - v2++ Rev 2 by solarmon"
-Date "2021-04-11"
-Rev "2++ Rev 2"
+Title "RGBtoHDMI Amiga Denise DIP Breakout - CDTV"
+Date "2021-11-18"
+Rev ""
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -271,10 +271,10 @@ Wire Wire Line
 	3050 2925 3500 2925
 Connection ~ 3050 2925
 $Comp
-L Connector_Generic:Conn_01x18 FFC20
+L Connector_Generic:Conn_01x18 FFC18
 U 1 1 60883755
 P 4925 2275
-F 0 "FFC20" H 5005 2267 50  0000 L CNN
+F 0 "FFC18" H 5005 2267 50  0000 L CNN
 F 1 "Conn_01x18" H 5005 2176 50  0000 L CNN
 F 2 "solarmon_library:FPC-SMD_X10B25U18T" H 4925 2275 50  0001 C CNN
 F 3 "~" H 4925 2275 50  0001 C CNN
