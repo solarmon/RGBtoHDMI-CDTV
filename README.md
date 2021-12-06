@@ -1,5 +1,7 @@
 # RGBtoHDMI-CDTV
 
+**WANRNING: PROJECT STILL IN PROGRESS - NOT FINALISED - DO NOT USE**
+
 ## Introduction
 
 This is an RGBtoHDMI solution is based on the original work by hoglet67 and IanSB:
