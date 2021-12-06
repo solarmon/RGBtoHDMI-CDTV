@@ -1044,8 +1044,6 @@ F 3 "" H 1950 6875 50  0001 C CNN
 $EndComp
 NoConn ~ 1750 6875
 NoConn ~ 1850 6875
-NoConn ~ 2050 6875
-NoConn ~ 2150 6875
 NoConn ~ 3050 7375
 NoConn ~ 2950 7375
 NoConn ~ 2850 7375
@@ -1355,4 +1353,23 @@ Text Notes 9750 5400 0    50   ~ 0
 TX
 Text Notes 9750 5500 0    50   ~ 0
 RX
+$Comp
+L Connector_Generic:Conn_01x02 A1
+U 1 1 61AE4E78
+P 2200 5725
+F 0 "A1" H 2280 5717 50  0000 L CNN
+F 1 "Conn_01x02" H 2280 5626 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2200 5725 50  0001 C CNN
+F 3 "~" H 2200 5725 50  0001 C CNN
+	1    2200 5725
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 6875 1    50   Input ~ 0
+AUDR
+Text GLabel 2150 6875 1    50   Input ~ 0
+AUDL
+Text GLabel 2000 5725 0    50   Input ~ 0
+AUDR
+Text GLabel 2000 5825 0    50   Input ~ 0
+AUDL
 $EndSCHEMATC
