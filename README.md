@@ -36,6 +36,8 @@ This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. The
 
 ### RGBtoHDMI CDTV Main Board
 
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot
+
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot%20-%20Top.png)
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot%20-%20Bottom.png)
@@ -43,6 +45,8 @@ This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. The
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot%20-%20Bottom%20-%20With%20Pi.png)
 
 ### RGBtoHDMI CDTV Face Plate
+
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot
 
 The face plate for the RGBtoHDMI CDTV board is also a PCB. It is attached to the main board using guide slots that has solder pads so that it can be soldered together.
 
@@ -52,11 +56,15 @@ The face plate for the RGBtoHDMI CDTV board is also a PCB. It is attached to the
 
 ### RGBtoHDMI CDTV Denise Breakout board v1
 
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV
+
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20-%20Top.png)
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20-%20Bottom.png)
 
 ### RGBtoHDMI CDTV Denise Breakout board v2
+
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2
 
 The v2 breakout board has a lower profile by using female round pins that act both as the socket for the Denise chip, as well as the pin to go in to the Denise socket on the CDTV.
 
