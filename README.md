@@ -18,6 +18,15 @@ Special mention to **c0pperdragon** for the original RGBtoHDMI board solution fo
 
 https://github.com/c0pperdragon/Amiga-Digital-Video
 
+## Wiki
+
+Please see the [wiki](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki) for further details:
+
+* [RGBtoHDMI CDTV Quick Start Guide](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-Quick-Start-Guide)
+* [RGBtoHDMI CDTV BoM](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-BoM)
+* [RGBtoHDMI CDTV Build Guide](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-Build-Guide)
+
+
 ## Solution
 
 This RGBtoHDMI solution has been designed to fit in to the **Video Slot** of a **Commodore CDTV**. It replaces the existing RF and composite video card, as well as providing a **bypass** for the video signals to go to the **RGB** video port.
