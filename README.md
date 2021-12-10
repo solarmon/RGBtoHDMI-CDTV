@@ -41,6 +41,8 @@ This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. The
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/Installation/RGBtoHDMI%20CDTV%20-%20Installation%20-%20Main%20Board%20Insertion.JPG)
 
+(...yes, I know the serial port and LEDs are missing in this picture! Oops!)
+
 ## Design
 
 ### RGBtoHDMI CDTV Main Board
