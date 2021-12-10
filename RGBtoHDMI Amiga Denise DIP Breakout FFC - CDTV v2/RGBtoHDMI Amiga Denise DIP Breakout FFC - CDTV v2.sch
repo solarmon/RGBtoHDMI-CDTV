@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "RGBtoHDMI Amiga Denise DIP Breakout - CDTV"
-Date "2021-11-18"
-Rev ""
+Date "2021-12-10"
+Rev "v2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -224,10 +224,10 @@ Wire Wire Line
 Text Label 4725 2975 2    50   ~ 0
 CSYNC
 $Comp
-L Connector_Generic:Conn_02x24_Counter_Clockwise JDenise?
+L Connector_Generic:Conn_02x24_Counter_Clockwise JDenise1
 U 1 1 61B292B4
 P 2250 2625
-F 0 "JDenise?" H 2300 1325 50  0000 C CNN
+F 0 "JDenise1" H 2300 1325 50  0000 C CNN
 F 1 "Conn_02x24_Counter_Clockwise" H 2300 3875 50  0000 C CNN
 F 2 "solarmon_library:DIP-48_W15.24mm_Socket_Turned_Pins" H 2250 2625 50  0001 C CNN
 F 3 "~" H 2250 2625 50  0001 C CNN
