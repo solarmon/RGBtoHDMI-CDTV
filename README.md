@@ -1,7 +1,5 @@
 # RGBtoHDMI-CDTV
 
-# WARNING: PROJECT STILL IN PROGRESS - NOT FINALISED - DO NOT USE #
-
 ## Introduction
 
 This is an RGBtoHDMI solution is based on the original work by **hoglet67** and **IanSB**:
@@ -20,6 +18,15 @@ Special mention to **c0pperdragon** for the original RGBtoHDMI board solution fo
 
 https://github.com/c0pperdragon/Amiga-Digital-Video
 
+## Wiki
+
+Please see the [wiki](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki) for further details:
+
+* [RGBtoHDMI CDTV Quick Start Guide](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-Quick-Start-Guide)
+* [RGBtoHDMI CDTV BoM](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-BoM)
+* [RGBtoHDMI CDTV Build Guide](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-Build-Guide)
+
+
 ## Solution
 
 This RGBtoHDMI solution has been designed to fit in to the **Video Slot** of a **Commodore CDTV**. It replaces the existing RF and composite video card, as well as providing a **bypass** for the video signals to go to the **RGB** video port.
@@ -32,9 +39,15 @@ This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. The
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/Installation/RGBtoHDMI%20CDTV%20-%20Installation%20-%20Complete.JPG)
 
+![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/Installation/RGBtoHDMI%20CDTV%20-%20Installation%20-%20Main%20Board%20Insertion.JPG)
+
+(...yes, I know the serial port and LEDs are missing in this picture! Oops!)
+
 ## Design
 
 ### RGBtoHDMI CDTV Main Board
+
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot%20-%20Top.png)
 
@@ -44,11 +57,17 @@ This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. The
 
 ### RGBtoHDMI CDTV Face Plate
 
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot
+
+The face plate for the RGBtoHDMI CDTV board is also a PCB. It is attached to the main board using guide slots that has solder pads so that it can be soldered together.
+
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot%20-%20Face%20Plate%20-%20Front.png)
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot%20-%20Face%20Plate%20-%20Back.png)
 
 ### RGBtoHDMI CDTV Denise Breakout board v1
+
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20-%20Top.png)
 
@@ -56,8 +75,14 @@ This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. The
 
 ### RGBtoHDMI CDTV Denise Breakout board v2
 
+Design files: https://github.com/solarmon/RGBtoHDMI-CDTV/tree/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2
+
 The v2 breakout board has a lower profile by using female round pins that act both as the socket for the Denise chip, as well as the pin to go in to the Denise socket on the CDTV.
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2%20-%20Top.png)
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2%20-%20Bottom.png)
+
+![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2%20-%20Top%20-%20With%20Denise.png)
+
+![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2/RGBtoHDMI%20Amiga%20Denise%20DIP%20Breakout%20FFC%20-%20CDTV%20v2%20-%20Top%20-%20With%20Denise%20-%20Angle.png)
