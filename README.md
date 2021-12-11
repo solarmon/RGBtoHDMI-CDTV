@@ -26,6 +26,9 @@ Please see the [wiki](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki) for furth
 * [RGBtoHDMI CDTV BoM](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-BoM)
 * [RGBtoHDMI CDTV Build Guide](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-Build-Guide)
 
+## Support
+
+Please raise a [support ticket](https://github.com/solarmon/RGBtoHDMI-CDTV/issues) for any issues with this project content and design files.
 
 ## Solution
 
