@@ -26,6 +26,9 @@ Please see the [wiki](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki) for furth
 * [RGBtoHDMI CDTV BoM](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-BoM)
 * [RGBtoHDMI CDTV Build Guide](https://github.com/solarmon/RGBtoHDMI-CDTV/wiki/RGBtoHDMI-CDTV-Build-Guide)
 
+## Support
+
+Please raise a [support ticket](https://github.com/solarmon/RGBtoHDMI-CDTV/issues) for any issues with this project content and design files.
 
 ## Solution
 
@@ -36,6 +39,8 @@ A breakout board is used to send the digital RGB signals from the Denise video c
 The mini HDMI connector of the **Raspberry Pi Zero** is presented directly on the face plate, along with three push buttons to control the RGBtoHDMI **OSD** menu.
 
 This LinuxJedi CPLD based version supports either **OCS** or **ECS** Denise. There is no jumper required - you just need to make sure you **auto-calibrate** it using the OSD menu.
+
+As with all the other RGBtoHDMI solution, **audio over HDMI** is currently **NOT supported**. This board does have breakout points for the **AUDL** and **AUDR** but is not used.
 
 ![](https://github.com/solarmon/RGBtoHDMI-CDTV/blob/main/RGBtoHDMI%20Amiga%20Denise%20CPLD%20FFC%20-%20CDTV%20Video%20Slot/Installation/RGBtoHDMI%20CDTV%20-%20Installation%20-%20Complete.JPG)
 
